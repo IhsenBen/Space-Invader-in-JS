@@ -1,0 +1,90 @@
+@font-face {
+    font-family: space;
+    src: url(spaceinvaders.woff);
+  }
+  
+html { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+  .score{
+      font-family: space;
+      color: white;
+      font-size: 50px;
+      letter-spacing: 5px;
+  }
+
+
+
+.win{
+    font-family: space;
+    color: red;
+    font-size: 50px; 
+    -webkit-text-stroke: 0.1px white;
+}
+
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    position: absolute;
+    background-image: url("background.png") ;
+    background-size: contain;
+    display:flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 300px;
+    height: 300px;
+}
+
+#game_over{
+    position: relative;
+    display: none;
+   z-index:1000000px;
+}
+#win{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-image: url("win.gif");
+    background-size: contain;
+    position: relative;
+    display: none;
+   z-index:1000000px;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.shooter{
+    background-image: url("spaceship2.png");
+
+}
+
+.invader{
+
+    background-image: url("invader.png");
+
+}
+
+.boom{
+    background-image: url("giphy.gif");
+    background-size: contain;
+}
+
+.laser{
+    background-image: url("laser.png");
+    background-size: contain;
+}
+
