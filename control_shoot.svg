@@ -1,0 +1,16 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#A08158" d="M150,240c-45.215,0-82-38.131-82-85s36.785-85,82-85s82,38.131,82,85S195.215,240,150,240z"/>
+		<path fill="#826746" d="M150,234c-45.215,0-82-36.785-82-82s36.785-82,82-82s82,36.785,82,82S195.215,234,150,234z"/>
+	</g>
+	<circle fill="#AF1027" cx="150" cy="150" r="80"/>
+	<circle fill="#9B0D28" cx="150" cy="150" r="73.038"/>
+	<circle fill="#890E2C" cx="150" cy="150" r="59.705"/>
+	<ellipse opacity="0.5" fill="#590E20" cx="150" cy="152.533" rx="53.268" ry="55.8"/>
+	<circle fill="#590E20" cx="150" cy="150" r="53.268"/>
+	<circle fill="#C41839" cx="150" cy="150" r="51.268"/>
+	<circle fill="#AF1027" cx="150" cy="150" r="42.645"/>
+</g>
+</svg>
