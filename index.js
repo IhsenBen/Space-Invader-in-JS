@@ -177,8 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         laserId = setInterval(moveLaser, 100);
     }
 
-    var touchshoot = document.getElementById("shoot_btn");
-  touchshoot.addEventListener("touchstart", function (e) {
+addEventListener("touchstart", function (e) {
     laserId = setInterval(moveLaser, 100);
   });
   }
