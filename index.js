@@ -168,19 +168,24 @@ document.addEventListener("DOMContentLoaded", () => {
         );
       }
     }
+  
 
-    // document.addEventListener('keyup', e => {
-    //   if (e.keyCode === 32) {
-    //     laserId = setInterval(moveLaser, 100)
-    //   }
-    // })
 
 
     switch (e.keyCode) {
       case 32:
         laserId = setInterval(moveLaser, 100);
     }
+
+    var touchshoot = document.getElementById("shoot_btn");
+  touchshoot.addEventListener("touchstart", function (e) {
+    laserId = setInterval(moveLaser, 100);
+  });
   }
 
+  var touchshoot = document.getElementById("shoot_btn");
+ touchshoot.addEventListener("touchstart", shoot);
+
+  
   document.addEventListener("keyup", shoot);
 });
