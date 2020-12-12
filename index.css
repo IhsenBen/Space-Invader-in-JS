@@ -11,7 +11,9 @@ html {
     background-size: cover;
   }
 
-
+*{
+    touch-action: manipulation;
+}
 
   .score{
       font-family: space;
@@ -122,11 +124,11 @@ html {
 
 .grid-container {
     margin-top: 400px;
-    height:500px;
+    height:200px;
     width: 600px;
     display: grid;
     grid-template-columns: 1.6fr 0.8fr 0.6fr;
-    grid-template-rows: 200px;
+    grid-template-rows: 150px;
     gap: 0px 10px;
     grid-template-areas:
       "shoot left right";
