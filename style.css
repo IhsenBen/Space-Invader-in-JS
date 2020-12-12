@@ -27,3 +27,6 @@
 .laser {
     background-color: orange;
 }
+* {
+    touch-action: manipulation;
+}
